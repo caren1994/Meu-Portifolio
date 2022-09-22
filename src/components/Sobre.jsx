@@ -25,7 +25,7 @@ class Sobre extends React.Component {
             desenvolvimento e marcas que trabalhem para contribuir com uma
             melhor interação digital.
             <br />
-            Atualmente sou estudante de desenvolvimento WEB FullStack em busca
+            Atualmente sou estudante de desenvolvimento WEB FullStack na Trybe e estou  em busca
             do meu primeiro emprego!
           </h4>
           <br />
