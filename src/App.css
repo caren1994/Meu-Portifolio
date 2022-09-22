@@ -1,38 +1,336 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Signika+Negative&display=swap');
+
+
+/* @font-face {
+  font-family: Moontime;
+  src: url('../Moontime/MoonTime\ Regular\ 400.otf');
+} */
+
+
+.imagem{
+  margin-top: 10px;
+border: 19px solid white;
+border-bottom: 50px solid white;
+
+ border-radius: 2% 2%;
+  width: 200px;
+  height: 300px;
+  margin-left: 60%;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+body{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ background-color: black !important;
+  color:white !important;
+  
+ 
+
+}
+
+
+.div-header{
+
+display: flex;
+justify-items: end;
+justify-content:flex-end;
+padding: 25px 0 25px 0;
+border-bottom: 1px solid white;
+
+}
+.link{
+
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 1px 5px;
+  margin-right: 5px;
+  color:gray;
+  
+}
+.link:hover{
+  color:white;
+}
+
+.tags-informacoes{
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  font-size:x-large;
+ 
+}
+.p-email{
+  margin-left: 20px;
+  font-size:x-large;
+ 
+}
+
+.tudo{
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top:-290px;
+
+
+}
+.p-informacao{
+  margin-left:50px;
+  font-size:x-large;
+}
+.p-informacao-text{
+  margin-top: 80px!important;
+  margin-left:50px;
+  font-size:x-large;
+}
+.information{
+  margin-top: 180px;
+}
+.p-cidade{
+  font-size:x-large;
+  margin-left: 40px;
+
+}
+.inicio-frase{
+  margin-top: 90px;
+  
+  margin-left:300px;
+  font-family: 'Quicksand', sans-serif;
+  position:absolute;
+
+  transform:translate(-50%,-50%);
+  color:rgba(255,255,255,.1);
+  background:linear-gradient(to right,
+  rgb(76,217,105),
+  rgb(52,170,220),
+  rgb(88,86,217),
+  rgb(255,45,83),
+  rgb(88,86,217),
+  rgb(55,170,220),
+  rgb(76,217,105)
+
+  );
+  background-size:400%;
+  -webkit-background-clip:text;
+  background-clip:text;
+  font-weight:20px;
+  font-size:30px;
+  text-align:left;
+  animation:sTransition 10s linear infinite;
+}
+@keyframes sTransition{
+  0%{
+    background-position:0%;
+  }
+  100%{
+    background-position:400%;
+  }
+}
+.p-informacao-nome{
+  margin-left:50px;
+  font-size:xx-large;
+  margin-left: 40px;
+  font-family: 'Ms Madi', cursive;
+
+}
+.color-tag{
+  color: gray;
+}
+.color-tag:hover{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.icones{
+  display: flex;
+  flex-direction: row;
+  margin-top: -20px;
+  
+}
+.color-tag-2{
+  margin-left:-40px; 
+  color:gray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+
+.color-tag-2:hover{
+  color:rgb(53, 153, 235);
+  
+
+}
+.card-img-top{
+  width: 200px;
+  height: 100px;
+}
+.todos-icones{
+
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.todos-icones-2{
+
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 90px;
+  
+}
+.icone{
+  display: flex;
+ flex-direction: column;
+  border-bottom: 2px solid white;
+  margin-left: 30px;
+  align-items: center;
+
+}
+.titulo{
+  font-size: 50px;
+  margin-left: 30%;
+  margin-bottom: 80px;
+}
+.titulo-2{
+  font-size: 30px;
+  margin-left: 50px;
+  
+}
+.footer{
+  
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.p-informacao-2{
+  margin-left:50px;
+  
+  font-size:large;
+}
+.footer-2{
+  
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 300px;
+}
+.cidade{
+  color:gold;
+
+}
+.email{
+  color:red;
+
+}
+.numero{
+  color:rgb(97, 240, 97);
+
+}
+h2{
+  margin-left: 40px;
+}
+.todos-os-projetos{
+  display: flex;
+  flex-direction:inline;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  justify-content: center;
+  
+  background: linear-gradient(to right, var(--cores-dancantes));
+  position: relative;
+            z-index: 999;
+            animation: coresDancantes 2s linear infinite;
+            width: 225px;
+  height: 275px;
+  border-radius: 8px;
+ margin-right: 20px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  
+}
+
+:root {
+  --cor-background: #212123;
+  --cor-reflexo: rgba(255, 255, 255, 0.4);
+  --cores-dancantes: rgb(76, 217, 105), rgb(52, 170, 220), rgb(88, 86, 217),
+      rgb(255, 45, 83);
+}
+.div-1{
+ 
+
+ 
+  margin-top:7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 250px; 
+  z-index: 1;
+  background-color: var(--cor-background);
+  text-align: center;
+  padding: 5px;
+  border-radius: 8px;
+  
+}
+.todos-os-projetos:hover{
+  width: 235px;
+  height: 285px;
+}
+.div-1:hover{
+  width: 210px;
+  height: 260px; 
+}
+
+
+@keyframes coresDancantes {
+  100% {
+      filter: hue-rotate(360deg);
+      
   }
 }
+.item-1{
+  margin-top: 40px;
+  border: 1px solid white ;
+  width:400px;
+  height: 170px;
+}
+.button-carousel{
+  
+  border-radius: 8px;
+  background-color:black !important;
+  transform:translate(-50%,-50%);
+  color:rgba(255,255,255,.1);
+  background:linear-gradient(to right,
+  rgb(76,217,105),
+  rgb(52,170,220),
+  rgb(88,86,217),
+  rgb(255,45,83),
+  rgb(88,86,217),
+  rgb(55,170,220),
+  rgb(76,217,105)
+
+  );
+  background-size:400%;
+  -webkit-background-clip:text;
+  background-clip:text;
+  font-weight:8px;
+  font-size:18px;
+  text-align:left;
+  animation:sTransition 10s linear infinite;
+}
+@keyframes sTransition{
+  0%{
+    background-position:0%;
+  }
+  100%{
+    background-position:400%;
+  }
+  
+}
+
+
