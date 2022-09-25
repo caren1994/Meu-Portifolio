@@ -78,7 +78,6 @@ flex-direction: row;
 align-items: center;
 margin-top:-290px;
 
-
 }
 .p-informacao{
   margin-left:50px;
@@ -212,7 +211,7 @@ margin-top:-290px;
   margin-bottom: 80px;
   color:  rgb(26, 235, 235);
 }
-.titulo-idi{
+.titulo-id{
   color:rgb(255,45,83);
   /* margin-left:40%; */
   text-align: center;
