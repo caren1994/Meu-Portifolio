@@ -55,6 +55,8 @@ border-bottom: 1px solid white;
 }
 .link:hover{
   color:white;
+  font-size: 30px;
+
 }
 
 .tags-informacoes{
@@ -81,6 +83,12 @@ margin-top:-290px;
 .p-informacao{
   margin-left:50px;
   font-size:x-large;
+}
+.p-informacao-idioma{
+ 
+  font-size:x-large;
+  text-align: center;
+
 }
 .p-informacao-text{
   margin-top: 80px!important;
@@ -164,12 +172,17 @@ margin-top:-290px;
   width: 200px;
   height: 100px;
 }
+.card-img-top:hover{
+  width: 220px;
+  height: 120px;
+}
 .todos-icones{
 
   margin-top: 40px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+ justify-content: center;
   
 }
 .todos-icones-2{
@@ -179,6 +192,8 @@ margin-top:-290px;
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 90px;
+
+  justify-content: center;
   
 }
 .icone{
@@ -188,16 +203,62 @@ margin-top:-290px;
   margin-left: 30px;
   align-items: center;
 
+
 }
+
 .titulo{
   font-size: 50px;
-  margin-left: 30%;
+  text-align: center;
   margin-bottom: 80px;
+  color:  rgb(26, 235, 235);
+}
+.titulo-idi{
+  color:rgb(255,45,83);
+  /* margin-left:40%; */
+  text-align: center;
+  margin-bottom: 40px;
 }
 .titulo-2{
-  font-size: 30px;
-  margin-left: 50px;
+ 
+margin-bottom: 80px;
   
+  margin-left:300px;
+  font-family: 'Quicksand', sans-serif;
+  position:absolute;
+
+  transform:translate(-50%,-50%);
+  color:rgba(255,255,255,.1);
+  background:linear-gradient(to right,
+  rgb(76,217,105),
+  rgb(52,170,220),
+  rgb(88,86,217),
+  rgb(255,45,83),
+  rgb(88,86,217),
+  rgb(55,170,220),
+  rgb(76,217,105)
+
+  );
+  background-size:400%;
+  -webkit-background-clip:text;
+  background-clip:text;
+  font-weight:20px;
+  font-size:40px;
+  text-align:left;
+  animation:sTransition 10s linear infinite;
+}
+@keyframes sTransition{
+  0%{
+    background-position:0%;
+  }
+  100%{
+    background-position:400%;
+  }
+ 
+  
+}
+
+.titulo-2:hover{
+font-size:50px;
 }
 .footer{
   
@@ -210,6 +271,12 @@ margin-top:-290px;
   margin-left:50px;
   
   font-size:large;
+}
+.p-texto-sobre{
+  margin-top: 80px;
+  margin-left:80px;
+  
+  font-size:25px;
 }
 .footer-2{
   
@@ -296,11 +363,14 @@ h2{
 .item-1{
   margin-top: 40px;
   border: 1px solid white ;
-  width:400px;
-  height: 170px;
+  width:700px;
+  height: 300px;
 }
 .button-carousel{
-  
+  width: 120px;
+  height: 50px;
+  margin-top: 40px;
+  margin-left: 600px;
   border-radius: 8px;
   background-color:black !important;
   transform:translate(-50%,-50%);
@@ -331,6 +401,12 @@ h2{
     background-position:400%;
   }
   
+}
+.button-carousel:hover{
+  margin-top: 50px;
+  width: 150px;
+  height: 70px;
+  font-size:22px;
 }
 
 

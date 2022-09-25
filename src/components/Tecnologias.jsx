@@ -57,8 +57,8 @@ class Tecnologias extends React.Component {
 </div>
 
 
-<h3 className="titulo-2">Idiomas</h3>
-<p className="p-informacao">Português, English (intermediate).</p><br/><br/><br/><br/>
+<h3 className="titulo-idi">Idiomas</h3>
+<p className="p-informacao-idioma">Português, English (intermediate).</p><br/><br/><br/><br/>
         </div>
         <div className="footer">
         <Footer/>
