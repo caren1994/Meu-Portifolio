@@ -1,5 +1,5 @@
 import React from "react";
-import {  Route, Switch } from 'react-router-dom';
+import {  Route, Routes } from 'react-router-dom';
 
 import Footer from "./components/Footer";
 
@@ -14,13 +14,13 @@ class App extends React.Component {
     return (
       <div>
         
-        <Switch>
+        <Routes>
           <Route exact path="/" component={Home} />
           <Route exact path="/header" component={Header} />
           <Route exact path="/sobre" component={Sobre} />
           <Route exact path="/tecnologias" component={Tecnologias} />
           <Footer />
-        </Switch>
+        </Routes>
        
       </div>
     );
