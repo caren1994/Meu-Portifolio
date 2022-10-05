@@ -17,8 +17,8 @@ class Sobre extends React.Component {
     return (
       <section>
         <Header />
-
-        <div>
+<div>
+        <div className="tudo-sobre">
           <h2 className="titulo-2">Sobre Mim </h2>
           <h4 className="p-texto-sobre">
             <br/>
@@ -30,22 +30,14 @@ class Sobre extends React.Component {
             Atualmente sou estudante de desenvolvimento WEB FullStack na Trybe e <br/>estou  em busca
             do meu primeiro emprego!
           </h4>
+          </div>
           <br />
           <br />
           <br />
           <br />
           <h2 className='titulo-2'>Meus Projetos</h2>
-          <div
-            classname="style"
-            style={{
-              display: "block",
-              marginLeft: 40,
-              width: 800,
-              height: 700,
-              padding: 30,
-            }}
-          >
-            <Carousel>
+          <div classname="style">
+            <Carousel classname='style'>
               <Carousel.Item interval={2000}>
                 <div className="d-block w-100">
                 <img className="item-1" src={imagem1} alt='projeto-pixel-art'/>

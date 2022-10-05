@@ -221,7 +221,8 @@ margin-top:-290px;
  
 margin-bottom: 80px;
   
-  margin-left:300px;
+  margin-left:200px;
+
   font-family: 'Quicksand', sans-serif;
   position:absolute;
 
@@ -273,7 +274,7 @@ font-size:50px;
 }
 .p-texto-sobre{
   margin-top: 80px;
-  margin-left:80px;
+  margin-left:50px;
   
   font-size:25px;
 }
@@ -369,7 +370,7 @@ h2{
   width: 120px;
   height: 50px;
   margin-top: 40px;
-  margin-left: 600px;
+  margin-left: 200px;
   border-radius: 8px;
   background-color:black !important;
   transform:translate(-50%,-50%);
@@ -401,11 +402,116 @@ h2{
   }
   
 }
+.style{
+  display: "block";
+  margin-Left: 40px;
+  width: 800px;
+  height: 700px;
+  padding: 30px;
+}
 .button-carousel:hover{
   margin-top: 50px;
   width: 150px;
   height: 70px;
   font-size:22px;
+}
+/* css responsivo pagina home */
+@media screen and (max-width: 375px), (max-height: 667px)  {
+  .inicio-frase{
+    margin-top: 100px;
+  
+    margin-left:160px;
+  }
+  imagem{
+
+  border: 19px solid white;
+  border-bottom: 50px solid white;
+  
+   border-radius: 2% 2%;
+    width: 100px;
+    height: 200px;
+    margin-left:10px;
+    
+  }
+  .tudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:-650px;
+    margin-left: -460px;
+    
+    }
+    .information{
+      margin-top: 500px;
+    }
+    .footer-2{
+  
+      border-top: 1px solid white;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 100px ;
+
+    }
+    
+    .icones{
+      display: flex;
+      flex-direction: row;
+      margin-top: 400px;
+      
+    }
+  
+  
+        
+
+}
+/* css responsivo pagina home */
+@media screen and (max-width: 768px), (max-height: 1024px)  {
+  .inicio-frase{
+    margin-top: 100px;
+  
+    margin-left:300px;
+  }
+  imagem{
+
+  border: 19px solid white;
+  border-bottom: 50px solid white;
+  
+   border-radius: 2% 2%;
+    width: 100px;
+    height: 200px;
+    margin-left:10px;
+    
+  }
+  .tudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:-560px;
+    margin-left: -460px;
+    
+    }
+    .information{
+      margin-top: 500px;
+    }
+    .footer-2{
+  
+      border-top: 1px solid white;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 100px ;
+
+    }
+    
+    .icones{
+      display: flex;
+      flex-direction: row;
+      margin-top: 300px;
+      
+    }
+    /* css responsivo pagina sobre mim */
+
 }
 
 
