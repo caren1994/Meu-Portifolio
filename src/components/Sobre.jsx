@@ -36,7 +36,14 @@ class Sobre extends React.Component {
           <br />
           <br />
           <h2 className='titulo-2'>Meus Projetos</h2>
-          <div classname="style">
+          <div classname="style"
+          style={{
+  display: "block",
+  marginLeft: 40,
+  width: 800,
+  height: 700,
+  padding: 30,
+}}>
             <Carousel classname='style'>
               <Carousel.Item interval={2000}>
                 <div className="d-block w-100">
