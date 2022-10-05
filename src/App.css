@@ -10,14 +10,15 @@
 
 
 .imagem{
-  margin-top: 10px;
+  margin-top: 240px;
+
 border: 19px solid white;
 border-bottom: 50px solid white;
 
  border-radius: 2% 2%;
   width: 200px;
   height: 300px;
-  margin-left: 60%;
+  margin-left: 65%
   
 }
 
@@ -90,7 +91,7 @@ margin-top:-290px;
 
 }
 .p-informacao-text{
-  margin-top: 80px!important;
+  margin-top: -250px!important;
   margin-left:50px;
   font-size:x-large;
 }
@@ -146,6 +147,7 @@ margin-top:-290px;
 }
 .color-tag{
   color: gray;
+  margin-top: -200px;
 }
 .color-tag:hover{
   color: white;
@@ -159,6 +161,7 @@ margin-top:-290px;
 .color-tag-2{
   margin-left:-40px; 
   color:gray;
+  margin-top: -200px;
 }
 
 
@@ -197,6 +200,7 @@ margin-top:-290px;
 }
 .icone{
   display: flex;
+  
  flex-direction: column;
   border-bottom: 2px solid white;
   margin-left: 30px;
@@ -457,7 +461,6 @@ h2{
     .icones{
       display: flex;
       flex-direction: row;
-      margin-top: 400px;
       
     }
   
@@ -510,7 +513,7 @@ h2{
       margin-top: 300px;
       
     }
-    /* css responsivo pagina sobre mim */
+
 
 }
 
