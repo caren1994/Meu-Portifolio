@@ -22,7 +22,7 @@ render(){
              < h3 className="inicio-frase">OLÁ, MEU NOME É <span className="p-informacao-nome">Caren Pontes</span></h3>
             <div className="information">
             
-             <p className="p-informacao-text">Estudante de Desenvolvimento Web Full-Stack</p>
+             <p className="p-informacao-text"> Sou estudante de Desenvolvimento Web Full-Stack</p>
              <p className="p-informacao">Trybe</p>
              </div>
          
