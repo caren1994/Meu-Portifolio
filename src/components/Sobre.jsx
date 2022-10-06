@@ -7,24 +7,24 @@ import imagem1 from './imagem/art-pixel.png';
 import imagem2 from './imagem/sistema-solar.png';
 import imagem3 from './imagem/trybe-hogwarts.png';
 import imagem4 from './imagem/trybe-tunes.png';
+import '../sobre.css';
 
 import "bootstrap/dist/css/bootstrap.css";
 import Carousel from "react-bootstrap/Carousel";
 
 
 class Sobre extends React.Component {
-  repositoriofront=()=>{
-    <link to='https://github.com/caren1994'></link>
-    // <a className="color-tag"  href='https://github.com/caren1994' target="_blank" rel="noopener noreferrer"></a>
-
-  }
+  
   render() {
     return (
+      <article>
       <section>
         <Header />
-<div>
+
         <div className="tudo-sobre">
           <h2 className="titulo-2">Sobre Mim </h2>
+          </div>
+          <div>
           <h4 className="p-texto-sobre">
             <br/>
             <br/>
@@ -40,16 +40,19 @@ class Sobre extends React.Component {
           <br />
           <br />
           <br />
-          <h2 className='titulo-2'>Meus Projetos</h2>
-          <div classname="style"
+          </section>
+          <section>
+<h2 className='titulo-2'>Meus Projetos</h2>
+          <div className="style"
           style={{
   display: "block",
-  marginLeft: 40,
-  width: 800,
-  height: 700,
-  padding: 30,
+  marginLeft:-40,
+  width: 900,
+  height: 800,
+  padding: 70,
+
 }}>
-            <Carousel classname='style'>
+            <Carousel>
               <Carousel.Item interval={2000}>
                 <div className="d-block w-100">
                 <img className="item-1" src={imagem1} alt='projeto-pixel-art'/>
@@ -83,16 +86,18 @@ class Sobre extends React.Component {
               </Carousel.Item>
             </Carousel>
           </div>
-        </div>
+          </section>
+        
         <br />
         <br />
         <br />
         <br />
 
-        <div className="footer">
+        
           <Footer />
-        </div>
-      </section>
+        
+        </article>
+     
     );
   }
 }

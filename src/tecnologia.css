@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Signika+Negative&display=swap');
+
+*{
+  margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+  
+  display: flex;
+  flex-direction: column;
+ background-color: black !important;
+  color:white !important;
+  
+}
+   
+ .div-header{
+   width:100%;
+  display: flex;
+  justify-items: end;
+  justify-content:flex-end;
+  padding: 25px 0 25px 0;
+  border-bottom: 1px solid white;
+  
+  }
+ .link{
+  
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 1px 5px;
+  margin-right: 5px;
+  color:gray;
+  
+}
+.link:hover{
+  color:white;
+  font-size: 30px;
+
+}
+.titulo{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 80px;
+  color:  rgb(26, 235, 235);
+} 
+
+.todos-icones{
+  
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ justify-content: center;
+  
+}
+.todos-icones-2{
+
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 90px;
+
+  justify-content: center;
+  
+}
+.card-img-top{
+  width: 200px;
+  height: 100px;
+}
+.card-img-top:hover{
+  width: 220px;
+  height: 120px;
+}
+  
+.icone{
+  display: flex;
+  
+ flex-direction: column;
+  border-bottom: 2px solid white;
+  margin-left: 30px;
+  align-items: center;
+
+}
+.p-informacao-idioma{
+   
+  font-size:x-large;
+  text-align: center;
+
+} 
+.titulo-id{
+  color:rgb(255,45,83);
+text-align: center;
+  margin-bottom: 40px;
+}
