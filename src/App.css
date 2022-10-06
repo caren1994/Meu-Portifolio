@@ -152,6 +152,15 @@ margin-top:-290px;
 .color-tag:hover{
   color: white;
 }
+.color-tag-button{
+  color: gray;
+  margin-top: -200px;
+  margin-left: 50px;
+}
+.color-tag-button:hover{
+  color: white;
+  margin-left: 50px;
+}
 .icones{
   display: flex;
   flex-direction: row;
